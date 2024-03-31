@@ -1,0 +1,152 @@
+/* Apartat del BODY */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+}
+
+
+.logo a:hover {
+    color: #ffcc00;
+}
+
+
+.barra-navegacion {
+    display: flex;
+    align-items: center;
+}
+
+
+.barra-navegacion ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+
+.barra-navegacion li {
+    margin-right: 20px;
+}
+
+
+.barra-navegacion a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+
+.barra-navegacion a:hover {
+    color: #ffcc00;
+}
+
+
+
+
+
+/* Apartado del MAIN */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 120px;
+}
+
+
+.reloj-container {
+    flex: 1 1 45%;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.nombre-pais {
+    font-weight: bold;
+    margin: 0;
+}
+
+
+.hora {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* Apartat del FOOTER */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilos específicos para el cronómetro */
+
+/* Contenedor del cronómetro */
+#cronometro {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    text-align: center;
+}
+
+/* Tiempo del cronómetro */
+#tiempo {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Botones del cronómetro */
+#cronometro button {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #333; /* Ajustamos el color de fondo de los botones */
+    color: #fff; /* Ajustamos el color del texto de los botones */
+    transition: color 0.3s ease-in-out;
+}
+
+/* Cambio de color al pasar el mouse sobre los botones del cronómetro */
+#cronometro button:hover {
+    color: #ffcc00;
+}
